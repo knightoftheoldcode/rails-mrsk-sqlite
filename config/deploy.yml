@@ -73,6 +73,6 @@ env:
 #     accesslog.format: json
 
 # Configure a custom healthcheck (default is /up on port 3000)
-healthcheck:
-  path: /
-  #   port: 4000
+# healthcheck:
+#   path: /up
+#   port: 4000
