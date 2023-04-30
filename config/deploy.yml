@@ -7,6 +7,8 @@ image: curtisspendlove/rails-mrsk-sqlite
 # Deploy to these servers.
 servers:
   - 161.35.230.48
+  - 137.184.4.170
+  - 143.244.182.40
 
 # Credentials for your image host.
 registry:
