@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'up', to: "healthcheck#show"
-
+  resources :microposts
   resources :users
   
+  get 'up', to: "healthcheck#show"
   root "users#index"
 end
